@@ -5,65 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Webpage</title>
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Hero Section -->
-    <div class="container px-4 mt-4">
-        <!-- Contact Information -->
-        <div class="row align-items-center mb-3">
-            <div class="col-12 col-md-6 d-md-flex justify-content-between">
-                <!-- Phone Number -->
-                <div class="d-flex align-items-center mb-1">
+  <!-- Combined Hero and Main Content Section -->
+<div class="container mt-5 mx-auto" style="background-color: #f8f9fa; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 30px;">
+    <!-- Contact Information -->
+    <div class="row align-items-center mb-3">
+        <div class="col-12 col-md-6 d-md-flex justify-content-between">
+            <div class="d-flex align-items-center mb-1">
+                <a href="tel:+916294351466" class="text-decoration-none">
                     <img src="https://fsymbols.com/images/phone-icon.png" alt="call symbol" class="me-2"
                         style="max-width: 20px; max-height: 20px;">
                     <span>(+91) 6294351466</span>
-                </div>
-                <!-- Email -->
-                <div class="d-flex align-items-center">
+                </a>
+            </div>
+            <div class="d-flex align-items-center">
+                <a href="mailto:joyba1406@gmail.com" class="text-decoration-none">
                     <img src="https://img.icons8.com/?size=100&id=12580&format=png" alt="email symbol" class="me-2"
                         style="max-width: 20px; max-height: 20px;">
                     <span>joyba1406@gmail.com</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Main Content -->
-        <div class="row align-items-center">
-            <!-- Left Column -->
-            <div class="col-lg-6 mb-4">
-                <div class="mb-3">Hi, I'm Joy Mukhopadhyay</div>
-                <h1 class="display-5 fw-bold mb-2">Skilled Frontend Developer with Web Expertise and Basic ML Knowledge
-                </h1>
-                <p class="lead">I am a Frontend Developer skilled in crafting user-friendly, visually appealing web
-                    applications. With expertise in modern technologies and basic machine learning, I deliver seamless
-                    digital experiences.</p>
-                <p>
-                    <a href="mailto:joyba1406@gmail.com" class="btn btn-primary">Contact Me</a>
-                </p>
-            </div>
-
-            <!-- Right Column -->
-            <div class="col-lg-6 text-center">
-                <img src="joys.png" alt="Profile picture of Joy Mukhopadhyay" class="img-fluid rounded shadow"
-                    style="max-width: 70%; height: auto; border: 3px solid hsla(163, 100%, 50%, 0.1); padding: 10px;">
+                </a>
             </div>
         </div>
     </div>
 
+    <!-- Main Content -->
+    <div class="row align-items-center">
+        <div class="col-lg-6 mb-4">
+            <div class="mb-3">Hi, I'm Joy Mukhopadhyay</div>
+            <h1 class="display-5 fw-bold mb-2 text-primary">Skilled Frontend Developer with Web Expertise and Basic ML Knowledge</h1>
+            <p class="lead text-secondary">I am a Frontend Developer skilled in crafting user-friendly, visually appealing web
+                applications. With expertise in modern technologies and basic machine learning, I deliver seamless
+                digital experiences.</p>
+            <p>
+                <a href="mailto:joyba1406@gmail.com" class="btn btn-primary">Contact Me</a>
+            </p>
+        </div>
+
+        <div class="col-lg-6 text-center">
+            <img src="joys.png" alt="Profile picture of Joy Mukhopadhyay" class="img-fluid rounded shadow"
+                style="max-width: 70%; height: auto;">
+        </div>
+    </div>
+</div>
+
+
+
     <!-- Skills Section -->
     <section id="skills" class="mt-5">
-        <h6 class="text-center" style="font-size: 0.5rem; color: rgb(142, 160, 222);">WHAT I DO</h6>
-
-        <h1 class="text-center fw-bold">My Skills</h1>
-        <div class="container mt-4">
-            <div class="row text-center">
-                <!-- Programming Languages -->
+        <div class="container px-5 mx-auto">
+            <h6 class="text-center" style="font-size: 0.5rem; color: rgb(142, 160, 222);">WHAT I DO</h6>
+            <h1 class="text-center fw-bold">My Skills</h1>
+            <div class="row text-center mt-4">
                 <div class="col-md-4 mb-3">
-                    <div class="p-3 rounded text-dark h-100 d-flex flex-column justify-content-center"
-                        style="background-color: lightblue;">
+                    <div class="bg-light p-4 rounded shadow h-100">
                         <h3 class="fw-bold">Programming Languages</h3>
                         <ul class="list-unstyled">
                             <li>C</li>
@@ -75,24 +72,20 @@
                         </ul>
                     </div>
                 </div>
-                <!-- Technical Knowledge -->
                 <div class="col-md-4 mb-3">
-                    <div class="p-3 rounded text-dark h-100 d-flex flex-column justify-content-center"
-                        style="background-color: lightblue;">
+                    <div class="bg-light p-4 rounded shadow h-100">
                         <h3 class="fw-bold">Technical Knowledge</h3>
                         <ul class="list-unstyled">
                             <li>SQL</li>
-                            <li>Object-Oriented Programming (OOP)</li>
+                            <li>OOP</li>
                             <li>Data Structures & Algorithms</li>
                             <li>Operating Systems</li>
                             <li>Machine Learning Basics</li>
                         </ul>
                     </div>
                 </div>
-                <!-- Development Skills -->
                 <div class="col-md-4 mb-3">
-                    <div class="p-3 rounded text-dark h-100 d-flex flex-column justify-content-center"
-                        style="background-color: lightblue;">
+                    <div class="bg-light p-4 rounded shadow h-100">
                         <h3 class="fw-bold">Development Skills</h3>
                         <ul class="list-unstyled">
                             <li>Frontend Development</li>
@@ -106,85 +99,82 @@
         </div>
     </section>
 
-
-    <!-- Projects Section -->
-    <section id="projects" class="mt-5">
-        <h6 class="text-center" style="font-size: 0.5rem; color: rgb(142, 160, 222);">MY PROJECTS</h6>
-        <h1 class="text-center fw-bold">You can check out a few of my projects below.</h1>
-        <div class="mt-4">
-            <div class="row align-items-center">
-                <div class="col-md-2 d-flex justify-content-center">
-                    <img src="p1.png" alt="Project one pic" class="img-fluid"
-                        style="width: 120px; height: 120px; object-fit: cover; border-radius: 10px;">
-                </div>
-                <div class="col-md-10 ps-4">
-                    <h5 class="fw-bold">Joysha Careers Bootstrap Live</h5>
-                    <p class="mb-2">
-                        Joysha is a responsive website built with the Bootstrap CSS framework, offering a clean and
-                        user-friendly platform for exploring career opportunities. It features a modern design, seamless
-                        performance across all devices, and a scalable structure, ensuring accessibility and
-                        adaptability for future enhancements.
-                    </p>
-                    <a href="https://github.com/joy30-joy/joysha-careers-bootstrap-live"
-                        class="text-primary text-decoration-none fw-bold" target="_blank">Project Link →</a>
-                </div>
+   <!-- Projects Section -->
+<section id="projects" class="mt-5">
+    <h6 class="text-center" style="font-size: 0.5rem; color: rgb(142, 160, 222);">MY PROJECTS</h6>
+    <h1 class="text-center fw-bold">You can check out a few of my projects below.</h1>
+    <div class="mt-4">
+        <div class="row align-items-center mb-4">
+            <div class="col-md-2 d-flex justify-content-center">
+                <img src="p1.png" alt="Project one pic" class="img-fluid"
+                    style="width: 120px; height: 120px; object-fit: cover; border-radius: 10px;">
+            </div>
+            <div class="col-md-10 ps-4">
+                <h5 class="fw-bold">Joysha Careers Bootstrap Live</h5>
+                <p class="mb-2">
+                    Joysha is a responsive website built with the Bootstrap CSS framework. It provides a clean, modern,
+                    and user-friendly platform for job seekers and employers alike. The site offers a smooth navigation
+                    experience, ensuring users can quickly browse job listings, apply for positions, and explore the
+                    organization’s mission and vision. The design is mobile-first, ensuring a seamless experience across
+                    all devices.
+                </p>
+                <a href="https://github.com/joy30-joy/joysha-careers-bootstrap-live" class="text-decoration-none"
+                    target="_blank">Project Link →</a>
             </div>
         </div>
+    </div>
 
-
-        <div class="mt-4">
-            <div class="row align-items-center">
-                <div class="col-md-2 d-flex justify-content-center">
-                    <img src="p2.png" alt="Project Two pic" class="img-fluid"
-                        style="width: 120px; height: 120px; object-fit: cover; border-radius: 10px;">
-                </div>
-                <div class="col-md-10 ps-4">
-                    <h5 class="fw-bold">Breast Cancer Classification using Logistic Regression</h5>
-                    <p class="mb-2">
-                        This project implements a machine learning model using Logistic Regression to predict whether a
-                        breast tumor is malignant or benign. The model analyzes features extracted from digital images
-                        of breast masses, ensuring accurate and efficient predictions. It highlights the application of
-                        machine learning in healthcare for early and reliable diagnosis, aiding in timely medical
-                        intervention.
-                    </p>
-                    <a href="https://github.com/joy30-joy/Breast_Cancer_Classification_using-_Logistic_Regression"
-                        class="text-primary text-decoration-none fw-bold" target="_blank">Project Link →</a>
-                </div>
+    <div class="mt-4">
+        <div class="row align-items-center mb-4">
+            <div class="col-md-2 d-flex justify-content-center">
+                <img src="p2.png" alt="Project Two pic" class="img-fluid"
+                    style="width: 120px; height: 120px; object-fit: cover; border-radius: 10px;">
+            </div>
+            <div class="col-md-10 ps-4">
+                <h5 class="fw-bold">Breast Cancer Classification using Logistic Regression</h5>
+                <p class="mb-2">
+                    This project implements a machine learning model using Logistic Regression to predict whether a
+                    breast tumor is malignant or benign based on various features. The dataset used is carefully cleaned
+                    and preprocessed to ensure that the model receives quality input for training. With a high accuracy
+                    rate, this model can assist medical professionals in making informed decisions about patient
+                    diagnosis and treatment. It serves as a prime example of applying basic machine learning algorithms
+                    in real-world medical applications.
+                </p>
+                <a href="https://github.com/joy30-joy/Breast_Cancer_Classification_using-_Logistic_Regression"
+                    class="text-decoration-none" target="_blank">Project Link →</a>
             </div>
         </div>
+    </div>
 
-
-
-
-        <div class="mt-4">
-            <div class="row align-items-center">
-                <div class="col-md-2 d-flex justify-content-center">
-                    <img src="p3.png" alt="Project three pic" class="img-fluid"
-                        style="width: 120px; height: 120px; object-fit: cover; border-radius: 10px;">
-                </div>
-                <div class="col-md-10 ps-4">
-                    <h5 class="fw-bold">scientific calculator live</h5>
-                    <p class="mb-2">
-                        **Scientific Calculator Live**
-                        This project is a live replica of Google’s Scientific Calculator, built using HTML and
-                        JavaScript. It offers a seamless interface for performing advanced mathematical operations with
-                        precision. Featuring functionalities such as trigonometry, logarithms, and basic arithmetic,
-                        this project showcases efficient scripting and user-friendly design, replicating the usability
-                        of a professional-grade scientific calculator.
-                    </p>
-                    <a href="https://github.com/joy30-joy/scientific-calculator-live-"
-                        class="text-primary text-decoration-none fw-bold" target="_blank">Project Link →</a>
-                </div>
+    <div class="mt-4">
+        <div class="row align-items-center mb-4">
+            <div class="col-md-2 d-flex justify-content-center">
+                <img src="p3.png" alt="Project three pic" class="img-fluid"
+                    style="width: 120px; height: 120px; object-fit: cover; border-radius: 10px;">
+            </div>
+            <div class="col-md-10 ps-4">
+                <h5 class="fw-bold">Scientific Calculator Live</h5>
+                <p class="mb-2">
+                    This project is a live replica of Google’s Scientific Calculator, built using HTML, CSS, and
+                    JavaScript. It features a fully functional scientific calculator that supports various mathematical
+                    operations, such as trigonometric functions, logarithms, exponentiation, and more. The project is
+                    designed to closely resemble the Google Calculator interface while adding some interactive
+                    animations. It serves as a great example of front-end development using vanilla JavaScript for
+                    dynamic functionality.
+                </p>
+                <a href="https://github.com/joy30-joy/scientific-calculator-live-" class="text-decoration-none"
+                    target="_blank">Project Link →</a>
             </div>
         </div>
-
-    </section>
-
-
+    </div>
+</section>
 
 
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-3 my-4 text-center">
+        <p class="mb-0">Joy Mukhopadhyay © 2024</p>
+    </footer>
 
-    </section>
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
